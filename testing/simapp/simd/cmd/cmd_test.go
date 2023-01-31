@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
+	svrcmd "github.com/cheqd/cosmos-sdk/server/cmd"
+	"github.com/cheqd/cosmos-sdk/x/genutil/client/cli"
 	"github.com/stretchr/testify/require"
 
 	"github.com/cosmos/ibc-go/v3/testing/simapp"

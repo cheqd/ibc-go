@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/cheqd/cosmos-sdk/codec"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	capabilitykeeper "github.com/cheqd/cosmos-sdk/x/capability/keeper"
+	paramtypes "github.com/cheqd/cosmos-sdk/x/params/types"
 
 	clientkeeper "github.com/cosmos/ibc-go/v3/modules/core/02-client/keeper"
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
@@ -52,12 +52,12 @@ func NewKeeper(
 	// panic if any of the keepers passed in is empty
 	if reflect.ValueOf(stakingKeeper).IsZero() {
 		panic(fmt.Errorf("cannot initialize IBC keeper: empty staking keeper"))
-	} 
-	
+	}
+
 	if reflect.ValueOf(upgradeKeeper).IsZero() {
 		panic(fmt.Errorf("cannot initialize IBC keeper: empty upgrade keeper"))
-	} 
-	
+	}
+
 	if reflect.DeepEqual(capabilitykeeper.ScopedKeeper{}, scopedKeeper) {
 		panic(fmt.Errorf("cannot initialize IBC keeper: empty scoped keeper"))
 	}

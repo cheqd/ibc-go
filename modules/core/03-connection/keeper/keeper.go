@@ -3,10 +3,10 @@ package keeper
 import (
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/cheqd/cosmos-sdk/codec"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
+	paramtypes "github.com/cheqd/cosmos-sdk/x/params/types"
 
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
 	"github.com/cosmos/ibc-go/v3/modules/core/03-connection/types"

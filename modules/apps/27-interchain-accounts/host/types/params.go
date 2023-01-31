@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	paramtypes "github.com/cheqd/cosmos-sdk/x/params/types"
 )
 
 const (

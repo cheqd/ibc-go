@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cheqd/cosmos-sdk/client"
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/ibc-go/v3/modules/core/02-client/types"

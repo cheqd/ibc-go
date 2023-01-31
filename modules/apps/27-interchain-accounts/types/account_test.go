@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/cheqd/cosmos-sdk/crypto/keys/secp256k1"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	authtypes "github.com/cheqd/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/suite"
 
 	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/types"

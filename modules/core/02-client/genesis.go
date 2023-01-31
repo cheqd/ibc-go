@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
 
 	"github.com/cosmos/ibc-go/v3/modules/core/02-client/keeper"
 	"github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
@@ -48,7 +48,7 @@ func InitGenesis(ctx sdk.Context, k keeper.Keeper, gs types.GenesisState) {
 	k.SetNextClientSequence(ctx, gs.NextClientSequence)
 
 	// NOTE: localhost creation is specifically disallowed for the time being.
-	// Issue: https://github.com/cosmos/cosmos-sdk/issues/7871
+	// Issue: https://github.com/cheqd/cosmos-sdk/issues/7871
 }
 
 // ExportGenesis returns the ibc client submodule's exported genesis.

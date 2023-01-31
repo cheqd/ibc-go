@@ -3,9 +3,9 @@ package cli
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/cheqd/cosmos-sdk/client"
+	"github.com/cheqd/cosmos-sdk/client/flags"
+	"github.com/cheqd/cosmos-sdk/version"
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/controller/types"

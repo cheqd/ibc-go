@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/cheqd/cosmos-sdk/types/module"
 
 	clientsims "github.com/cosmos/ibc-go/v3/modules/core/02-client/simulation"
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"

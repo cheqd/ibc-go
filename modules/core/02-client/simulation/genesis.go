@@ -3,7 +3,7 @@ package simulation
 import (
 	"math/rand"
 
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	simtypes "github.com/cheqd/cosmos-sdk/types/simulation"
 
 	"github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
 )

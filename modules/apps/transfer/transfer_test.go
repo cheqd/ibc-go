@@ -3,7 +3,7 @@ package transfer_test
 import (
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
 	"github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cheqd/cosmos-sdk/codec"
+	sdk "github.com/cheqd/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/cheqd/cosmos-sdk/x/capability/types"
 
 	"github.com/cosmos/ibc-go/v3/modules/apps/transfer/keeper"
 	"github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
@@ -39,7 +39,7 @@ func ValidateTransferChannelParams(
 	channelID string,
 ) error {
 	// NOTE: for escrow address security only 2^32 channels are allowed to be created
-	// Issue: https://github.com/cosmos/cosmos-sdk/issues/7737
+	// Issue: https://github.com/cheqd/cosmos-sdk/issues/7737
 	channelSequence, err := channeltypes.ParseChannelSequence(channelID)
 	if err != nil {
 		return err

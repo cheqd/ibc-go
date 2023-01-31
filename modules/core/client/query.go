@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cheqd/cosmos-sdk/client"
+	"github.com/cheqd/cosmos-sdk/codec"
 	abci "github.com/tendermint/tendermint/abci/types"
 
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
@@ -20,7 +20,7 @@ import (
 // the correct merkle proof. Proof queries at height less than or equal to 2 are
 // not supported. Queries with a client context height of 0 will perform a query
 // at the lastest state available.
-// Issue: https://github.com/cosmos/cosmos-sdk/issues/6567
+// Issue: https://github.com/cheqd/cosmos-sdk/issues/6567
 func QueryTendermintProof(clientCtx client.Context, key []byte) ([]byte, []byte, clienttypes.Height, error) {
 	height := clientCtx.Height
 

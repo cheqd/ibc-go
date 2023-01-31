@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cheqd/cosmos-sdk/client"
+	"github.com/cheqd/cosmos-sdk/codec"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
 
 	clientutils "github.com/cosmos/ibc-go/v3/modules/core/02-client/client/utils"
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"

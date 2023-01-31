@@ -1,11 +1,11 @@
 package v100
 
 import (
+	"github.com/cheqd/cosmos-sdk/codec"
+	codectypes "github.com/cheqd/cosmos-sdk/codec/types"
+	cryptotypes "github.com/cheqd/cosmos-sdk/crypto/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
 	ics23 "github.com/confio/ics23/go"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/cosmos/ibc-go/v3/modules/core/exported"
 )

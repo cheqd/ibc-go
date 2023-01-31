@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cheqd/cosmos-sdk/codec"
+	codectypes "github.com/cheqd/cosmos-sdk/codec/types"
+	"github.com/cheqd/cosmos-sdk/store/prefix"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
 
 	"github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"

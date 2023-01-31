@@ -3,9 +3,9 @@ package keeper
 import (
 	"bytes"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cheqd/cosmos-sdk/telemetry"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
 	"github.com/gogo/protobuf/proto"
 
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
@@ -59,8 +59,8 @@ func (k Keeper) ConnOpenInit(
 // code is executed on chain B).
 //
 // NOTE:
-//  - Here chain A acts as the counterparty
-//  - Identifiers are checked on msg validation
+//   - Here chain A acts as the counterparty
+//   - Identifiers are checked on msg validation
 func (k Keeper) ConnOpenTry(
 	ctx sdk.Context,
 	previousConnectionID string, // previousIdentifier

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	"github.com/cheqd/cosmos-sdk/types/kv"
 	"github.com/stretchr/testify/require"
 
 	"github.com/cosmos/ibc-go/v3/modules/core/04-channel/simulation"

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/rootmulti"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/cheqd/cosmos-sdk/store/iavl"
+	"github.com/cheqd/cosmos-sdk/store/rootmulti"
+	storetypes "github.com/cheqd/cosmos-sdk/store/types"
 	"github.com/stretchr/testify/suite"
 	abci "github.com/tendermint/tendermint/abci/types"
 	dbm "github.com/tendermint/tm-db"

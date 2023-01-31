@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	capabilitykeeper "github.com/cheqd/cosmos-sdk/x/capability/keeper"
+	capabilitytypes "github.com/cheqd/cosmos-sdk/x/capability/types"
 	"github.com/tendermint/tendermint/libs/log"
 
 	"github.com/cosmos/ibc-go/v3/modules/core/05-port/types"

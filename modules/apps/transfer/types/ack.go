@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
 
 	channeltypes "github.com/cosmos/ibc-go/v3/modules/core/04-channel/types"
 )

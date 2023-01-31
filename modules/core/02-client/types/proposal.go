@@ -3,10 +3,10 @@ package types
 import (
 	"fmt"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	codectypes "github.com/cheqd/cosmos-sdk/codec/types"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
+	govtypes "github.com/cheqd/cosmos-sdk/x/gov/types"
+	upgradetypes "github.com/cheqd/cosmos-sdk/x/upgrade/types"
 
 	"github.com/cosmos/ibc-go/v3/modules/core/exported"
 )

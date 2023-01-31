@@ -3,9 +3,9 @@ package types
 import (
 	"reflect"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cheqd/cosmos-sdk/codec"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
 
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
 	"github.com/cosmos/ibc-go/v3/modules/core/exported"
@@ -14,12 +14,12 @@ import (
 // CheckSubstituteAndUpdateState will try to update the client with the state of the
 // substitute if and only if the proposal passes and one of the following conditions are
 // satisfied:
-//	1) AllowUpdateAfterMisbehaviour and Status() == Frozen
-// 	2) AllowUpdateAfterExpiry=true and Status() == Expired
+//  1. AllowUpdateAfterMisbehaviour and Status() == Frozen
+//  2. AllowUpdateAfterExpiry=true and Status() == Expired
 //
 // The following must always be true:
-//	- The substitute client is the same type as the subject client
-//	- The subject and substitute client states match in all parameters (expect frozen height, latest height, and chain-id)
+//   - The substitute client is the same type as the subject client
+//   - The subject and substitute client states match in all parameters (expect frozen height, latest height, and chain-id)
 //
 // In case 1) before updating the client, the client will be unfrozen by resetting
 // the FrozenHeight to the zero Height. If a client is frozen and AllowUpdateAfterMisbehaviour

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	capabilitytypes "github.com/cheqd/cosmos-sdk/x/capability/types"
 	"github.com/stretchr/testify/suite"
 	"github.com/tendermint/tendermint/crypto"
 
@@ -19,7 +19,7 @@ import (
 
 var (
 	// TODO: Cosmos-SDK ADR-28: Update crypto.AddressHash() when sdk uses address.Module()
-	// https://github.com/cosmos/cosmos-sdk/issues/10225
+	// https://github.com/cheqd/cosmos-sdk/issues/10225
 	//
 	// TestAccAddress defines a resuable bech32 address for testing purposes
 	TestAccAddress = icatypes.GenerateAddress(sdk.AccAddress(crypto.AddressHash([]byte(icatypes.ModuleName))), ibctesting.FirstConnectionID, TestPortID)

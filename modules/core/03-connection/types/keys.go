@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
 
 	host "github.com/cosmos/ibc-go/v3/modules/core/24-host"
 )

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cheqd/cosmos-sdk/crypto/keys/secp256k1"
+	sdk "github.com/cheqd/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
 	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"

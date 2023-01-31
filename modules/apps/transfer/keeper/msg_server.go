@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
 
 	"github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
 )

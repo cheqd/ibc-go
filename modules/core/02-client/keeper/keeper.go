@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/cheqd/cosmos-sdk/codec"
+	"github.com/cheqd/cosmos-sdk/store/prefix"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
+	paramtypes "github.com/cheqd/cosmos-sdk/x/params/types"
+	upgradetypes "github.com/cheqd/cosmos-sdk/x/upgrade/types"
 	"github.com/tendermint/tendermint/libs/log"
 	"github.com/tendermint/tendermint/light"
 

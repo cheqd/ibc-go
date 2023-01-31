@@ -1,10 +1,10 @@
 package simapp
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/cheqd/cosmos-sdk/codec"
+	"github.com/cheqd/cosmos-sdk/server/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	"github.com/cheqd/cosmos-sdk/types/module"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

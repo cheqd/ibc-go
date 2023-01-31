@@ -3,12 +3,12 @@ package mock
 import (
 	"encoding/json"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
+	"github.com/cheqd/cosmos-sdk/client"
+	"github.com/cheqd/cosmos-sdk/codec"
+	codectypes "github.com/cheqd/cosmos-sdk/codec/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	"github.com/cheqd/cosmos-sdk/types/module"
+	capabilitytypes "github.com/cheqd/cosmos-sdk/x/capability/types"
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"

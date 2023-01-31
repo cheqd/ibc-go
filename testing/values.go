@@ -1,13 +1,13 @@
 /*
-	This file contains the variables, constants, and default values
-	used in the testing package and commonly defined in tests.
+This file contains the variables, constants, and default values
+used in the testing package and commonly defined in tests.
 */
 package ibctesting
 
 import (
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
 
 	ibctransfertypes "github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
 	connectiontypes "github.com/cosmos/ibc-go/v3/modules/core/03-connection/types"

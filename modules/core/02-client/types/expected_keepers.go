@@ -3,9 +3,9 @@ package types
 import (
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	stakingtypes "github.com/cheqd/cosmos-sdk/x/staking/types"
+	upgradetypes "github.com/cheqd/cosmos-sdk/x/upgrade/types"
 )
 
 // StakingKeeper expected staking keeper

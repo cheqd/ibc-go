@@ -3,7 +3,7 @@ package transfer_test
 import (
 	"math"
 
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
+	capabilitytypes "github.com/cheqd/cosmos-sdk/x/capability/types"
 
 	"github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v3/modules/core/04-channel/types"

@@ -3,10 +3,10 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
+	"github.com/cheqd/cosmos-sdk/telemetry"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	sdkerrors "github.com/cheqd/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/cheqd/cosmos-sdk/x/capability/types"
 
 	connectiontypes "github.com/cosmos/ibc-go/v3/modules/core/03-connection/types"
 	"github.com/cosmos/ibc-go/v3/modules/core/04-channel/types"
@@ -339,7 +339,8 @@ func (k Keeper) WriteOpenAckChannel(
 }
 
 // ChanOpenConfirm is called by the counterparty module to close their end of the
-//  channel, since the other end has been closed.
+//
+//	channel, since the other end has been closed.
 func (k Keeper) ChanOpenConfirm(
 	ctx sdk.Context,
 	portID,

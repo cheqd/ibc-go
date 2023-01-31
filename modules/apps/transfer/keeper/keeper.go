@@ -1,13 +1,13 @@
 package keeper
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/cheqd/cosmos-sdk/codec"
+	"github.com/cheqd/cosmos-sdk/store/prefix"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	authtypes "github.com/cheqd/cosmos-sdk/x/auth/types"
+	capabilitykeeper "github.com/cheqd/cosmos-sdk/x/capability/keeper"
+	capabilitytypes "github.com/cheqd/cosmos-sdk/x/capability/types"
+	paramtypes "github.com/cheqd/cosmos-sdk/x/params/types"
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"github.com/tendermint/tendermint/libs/log"
 

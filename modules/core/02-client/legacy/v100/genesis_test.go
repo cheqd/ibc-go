@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/cheqd/cosmos-sdk/client"
+	"github.com/cheqd/cosmos-sdk/codec"
+	codectypes "github.com/cheqd/cosmos-sdk/codec/types"
 
 	ibcclient "github.com/cosmos/ibc-go/v3/modules/core/02-client"
 	v100 "github.com/cosmos/ibc-go/v3/modules/core/02-client/legacy/v100"

@@ -5,23 +5,23 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	servertypes "github.com/cosmos/cosmos-sdk/server/types"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
-	authcli "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
-	authrest "github.com/cosmos/cosmos-sdk/x/auth/client/rest"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/cheqd/cosmos-sdk/baseapp"
+	"github.com/cheqd/cosmos-sdk/client/flags"
+	"github.com/cheqd/cosmos-sdk/crypto/hd"
+	"github.com/cheqd/cosmos-sdk/crypto/keyring"
+	kmultisig "github.com/cheqd/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/cheqd/cosmos-sdk/crypto/types"
+	servertypes "github.com/cheqd/cosmos-sdk/server/types"
+	storetypes "github.com/cheqd/cosmos-sdk/store/types"
+	"github.com/cheqd/cosmos-sdk/testutil"
+	clitestutil "github.com/cheqd/cosmos-sdk/testutil/cli"
+	"github.com/cheqd/cosmos-sdk/testutil/network"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	"github.com/cheqd/cosmos-sdk/types/rest"
+	txtypes "github.com/cheqd/cosmos-sdk/types/tx"
+	authcli "github.com/cheqd/cosmos-sdk/x/auth/client/cli"
+	authrest "github.com/cheqd/cosmos-sdk/x/auth/client/rest"
+	authtypes "github.com/cheqd/cosmos-sdk/x/auth/types"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/suite"
 	tmrand "github.com/tendermint/tendermint/libs/rand"
@@ -34,7 +34,7 @@ import (
 
 /*
 	This file contains tests from the SDK which had to deleted during the migration of
-	the IBC module from the SDK into this repository. https://github.com/cosmos/cosmos-sdk/pull/8735
+	the IBC module from the SDK into this repository. https://github.com/cheqd/cosmos-sdk/pull/8735
 
 	They can be removed once the SDK deprecates amino.
 */

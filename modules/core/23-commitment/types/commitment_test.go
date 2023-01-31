@@ -3,9 +3,9 @@ package types_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/rootmulti"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/cheqd/cosmos-sdk/store/iavl"
+	"github.com/cheqd/cosmos-sdk/store/rootmulti"
+	storetypes "github.com/cheqd/cosmos-sdk/store/types"
 	"github.com/stretchr/testify/suite"
 	dbm "github.com/tendermint/tm-db"
 )

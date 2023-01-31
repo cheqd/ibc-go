@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
-	baseapp "github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	baseapp "github.com/cheqd/cosmos-sdk/baseapp"
+	"github.com/cheqd/cosmos-sdk/codec"
+	sdk "github.com/cheqd/cosmos-sdk/types"
+	capabilitykeeper "github.com/cheqd/cosmos-sdk/x/capability/keeper"
+	capabilitytypes "github.com/cheqd/cosmos-sdk/x/capability/types"
+	paramtypes "github.com/cheqd/cosmos-sdk/x/params/types"
 	"github.com/tendermint/tendermint/libs/log"
 
 	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/controller/types"
